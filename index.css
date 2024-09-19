@@ -1,0 +1,19 @@
+body{
+    background-color: #f7f7f7;
+}
+.demo{
+    height: 70px;
+}
+.demo div{
+    height: 100%;
+}
+.demo ul{
+    list-style-type: none;
+}
+.cards img{
+    width: 110px;
+}
+.card{
+    height: 270px;
+    width: 25%;
+}

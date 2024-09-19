@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b4e3e0aa4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <header>
+        <div class="w-100 bg-white demo d-flex">
+            <div class="w-50">
+                <nav>
+                    <ul class="d-flex">
+                        <li class="me-4 mt-3">
+                            <img width="75px" src="data:image/png;base64,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" alt="">
+                        </li>
+                        <li class="me-4 mt-4 fs-6">Store</li>
+                        <li class="me-4 mt-4 fs-6">Phones</li>
+                        <li class="me-4 mt-4 fs-6">Tablets</li>
+                        <li class="me-4 mt-4 fs-6">TV & Smart Home</li>
+                        <li class="me-4 mt-4 fs-6">Smart Watch & Audio</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="w-50">
+                <ul class="d-flex justify-content-end">
+                    <li class="mt-4 me-4 fs-6">Discover</li>
+                    <li class="mt-4 me-4 fs-6">Support</li>
+                    <li class="mt-4 me-4 fs-6"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="mt-4 me-4 fs-6"><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li class="mt-4 me-4 fs-6"><i class="fa-solid fa-user"></i></li>
+                </ul>
+            </div>
+        </div>    
+    </header>
+    
+    <main class="container mt-5">
+        <div class="cards w-100 d-flex gap-4">
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Redmi Buds5</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i03.appmifile.com/279_item_in/11/02/2024/9c7c1abf55075e414e77f31e4fa3b0a4.jpg?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Mi Dual Driver In-ear Earphones</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i03.appmifile.com/186_item_in/22/04/2024/442cc7d34fc292461a86088f48e3ee4d.jpg?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Redmi Sonic Bass Wireless Earphones 2</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i03.appmifile.com/861_item_in/12/06/2024/b55a19275aff26f99e2d0a212445dd92.jpg?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Mi Portable Bluetooth Speaker (16W)</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1631696979.32419876.jpg?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <section class="container mt-5">
+        <img class="w-100" src="https://i03.appmifile.com/667_operator_in/16/09/2024/3dc7a525e383e22e78361ca189422c8d.jpg?thumb=1&w=1680&f=webp&q=85" alt="">
+    </section>
+
+    <main class="container mt-5">
+        <div class="cards w-100 d-flex gap-4">
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Redmi Pad Se</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i03.appmifile.com/387_item_in/05/03/2024/1714e6e2a8c6e93e3d48230c795f83ba.jpg?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Redmi 13 Ce</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i03.appmifile.com/329_item_in/04/07/2024/d88301cc16a544f13ee9684e3ef789bd.png?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Redmi 14</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i03.appmifile.com/330_item_in/04/07/2024/4879f12aa3cb3bbbe785c062f24ff320.png?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+            <div class="card p-3 border-1">
+                <div class="card-head">
+                    <p>Redmi Buds5</p>
+                    <span class="btn btn-outline-danger">50% off</span>
+                </div>
+                <div class="card-body">
+                    <img class="ms-auto d-block" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1631696979.32419876.jpg?thumb=1&w=200&f=webp&q=85" alt="">
+                    <span class="fs-5"><span class="fs-6">&#8377;</span> 2499</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
